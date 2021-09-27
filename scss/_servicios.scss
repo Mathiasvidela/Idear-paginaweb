@@ -1,0 +1,90 @@
+/***** OPERACIONES ******/
+$amarillo: #ed921f;
+$negro : #1a1b1c;
+$blanco: #f2f2f2;
+$amarilloclaro : #fff3cc;
+$imgcard: 20%;
+
+/**** SASS
+.card__info {
+    background-color: $negro;
+    padding: 1rem;
+    margin: 2rem;
+    width: 50rem;
+    border-radius: 1rem;
+        .flex__info {
+            display: flex;
+        }
+        .title__info{
+        color:$amarillo; }
+        p{
+        color:$blanco;}
+        .img__info {
+            width:$imgcard*2;
+        }
+        .list__info {
+            color:$amarillo;
+            list-style-type:none;
+            margin-top: 1rem;
+        }
+}   
+
+
+.card__servicios {
+    background-color: $negro;
+    padding: 1rem;
+    margin: 2rem;
+    width: 50rem;
+    border-radius: 1rem;
+        .title__servicios {
+        color: $amarillo;
+        }
+        p {
+        color: $blanco;
+        }
+        .flex__servicios {
+            display: flex;
+        }
+        .img__servicios {
+            width: $imgcard*2;
+        }
+        .list__servicios {
+            color: $amarillo;
+            list-style-type:none;
+            margin-top: 1rem;
+        }
+
+}
+**/
+
+/**** about page ****/
+.aboutcolor { background-color: $negro;
+            h1 { color:$blanco;
+            }
+}
+
+.iconabout { width: 15%;
+            display: flex;
+}
+
+.iconcasaflex { display: flex;}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+  }
+  
+  .social-link:hover,
+  .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+  }

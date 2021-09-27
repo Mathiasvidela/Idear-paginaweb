@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+/*------------HEADER-------------*/
+.navbar {
+    background-color: rgb(237, 146, 31) !important;
+}
+
+.img__logo {
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+    @keyframes aparecer {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+
+/*nav tab*/
+.nav__text {
+    list-style-type:none;
+    text-decoration: none;
+    width: 90rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*-----------FIN HEADER-----------*/
+.titulo1:hover {
+    background: rgb(221,97,28);
+    background: linear-gradient(350deg, rgba(221,97,28,1) 18%, rgba(244,172,18,1) 50%, rgba(251,206,112,1) 86%);
+}
+.titulo1 {
+    background: rgb(71,71,71);
+    background: linear-gradient(130deg, rgba(71,71,71,1) 18%, rgba(52,52,52,1) 50%, rgba(0,0,0,1) 86%); 
+    margin: 20px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.titulo2:hover{
+    background: rgb(221,97,28);
+    background: linear-gradient(350deg, rgba(221,97,28,1) 18%, rgba(244,172,18,1) 50%, rgba(251,206,112,1) 86%);
+}
+.titulo2 {
+    background: rgb(71,71,71);
+    background: linear-gradient(130deg, rgba(71,71,71,1) 18%, rgba(52,52,52,1) 50%, rgba(0,0,0,1) 86%); 
+    margin: 20px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+   }
+ 
+/*Section Casas*/
+
+
+/* Section Terrenos*/
+
+
+
+/*Footer*/
+.title {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: black;
+    color:blanchedalmond
+}
+
+.redes {
+    color: whitesmoke;
+    width: 6rem;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.ir__arriba {
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*************** Pagina Contacto**************/
+
+.form {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    justify-content: center;
+    display: flex;
+    padding: 3rem;
+}
+
+/*GRIDS*/
+.grids {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    display: grid;
+    padding: 1rem;
+    grid-template-columns:10rem 10rem;
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap: 1rem;
+    grid-template-areas: "uno    cuatro"    
+                         "dos   cuatro"
+                         "tres  seis";
+    justify-content: center;
+    align-items: center;
+}
+.nombre{
+    grid-area: uno;
+}
+.correo {
+    grid-area: dos ;
+}
+
+.lista{
+    grid-area: tres;
+}
+.textarea {
+   grid-area: cuatro;
+}
+
+.button {
+    grid-area: seis;
+    justify-content: center;
+    align-items: center;
+}

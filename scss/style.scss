@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+@import "servicios" ;
+/**** OPERACIONES ****/
+$amarillo: #ed921f;
+$negro : #1a1b1c;
+$blanco: #f2f2f2;
+$amarilloclaro : #ffb57d;
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+/*------------HEADER-------------*/
+.navbar {
+    background-color:$amarillo !important;
+}
+
+.img__logo {
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+    @keyframes aparecer {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+
+/*-----------FIN HEADER-----------*/
+.titulo1:hover {
+    background: $amarillo;
+}
+.titulo1 {
+    background: $negro;
+    margin: 20px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.titulo2:hover{
+    background:$amarillo;
+}
+.titulo2 {
+    background:$negro; 
+    margin: 20px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+   }
+   
+ 
+
+
+
+
+
+/*************** Pagina Contacto**************/
+
+.form {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    justify-content: center;
+    display: flex;
+    padding: 3rem;
+}
+
+footer {
+    background-color: $negro;
+    color:$blanco;
+}
+
+.colorfooter {
+    background-color: $amarillo;
+}
+
+
+/********************About page****************/
