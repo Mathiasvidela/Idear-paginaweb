@@ -25,6 +25,7 @@ $amarilloclaro : #ffb57d;
 }
 
 
+
 /*-----------FIN HEADER-----------*/
 .titulo1:hover {
     background: $amarillo;
@@ -54,14 +55,25 @@ $amarilloclaro : #ffb57d;
     text-align: center;
    }
    
- 
-
+   .card__press {
+       text-decoration: none;
+   }
 
 
 
 
 /*************** Pagina Contacto**************/
 
+.img__cont {
+    width: 30%;
+}
+
+.formulario__contacto {
+    display: flex ;
+    justify-content: center !important;
+    background-color:rgba(207, 207, 207, 0.651);
+    border-radius: 3%;
+}
 .form {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
