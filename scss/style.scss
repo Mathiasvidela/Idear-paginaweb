@@ -71,20 +71,20 @@ $amarilloclaro : #ffb57d;
     width: 30%;
 }
 
-.formulario__contacto {
-    display: flex ;
-    justify-content: center !important;
-    background-color:rgba(207, 207, 207, 0.651);
-    border-radius: 3%;
-}
-.form {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 27px;
-    justify-content: center;
-    display: flex;
-    padding: 3rem;
-}
+.map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
 
 footer {
     background-color: $negro;
