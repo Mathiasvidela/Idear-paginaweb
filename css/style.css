@@ -137,6 +137,24 @@
 }
 
 /*-----------FIN HEADER-----------*/
+/*--------- card inicio ---------*/
+.card_in {
+  background-color: #dfdfdf;
+  -webkit-box-shadow: 10px -7px #ed921f;
+          box-shadow: 10px -7px #ed921f;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.card_inblack {
+  background-color: #1a1b1c;
+  -webkit-box-shadow: 10px -7px #ed921f;
+          box-shadow: 10px -7px #ed921f;
+  border-radius: 15px;
+  color: whitesmoke;
+  padding: 20px;
+}
+
 .titulo1:hover {
   background: #ed921f;
 }
@@ -198,6 +216,10 @@ footer {
 
 .colorfooter {
   background-color: #ed921f;
+}
+
+.secciones__footer a {
+  color: #f2f2f2;
 }
 
 /********************About page****************/

@@ -4,7 +4,7 @@
 $amarillo: #ed921f;
 $negro : #1a1b1c;
 $blanco: #f2f2f2;
-$amarilloclaro : #ffb57d;
+$amarilloclaro : #dfdfdf;
 
 * {
     margin: 0; 
@@ -28,10 +28,30 @@ $amarilloclaro : #ffb57d;
 
 /*-----------FIN HEADER-----------*/
 
+/*--------- card inicio ---------*/
+.card_in {
+ 
+ background-color: $amarilloclaro;
+ box-shadow: 10px -7px $amarillo;
+ border-radius: 15px;
+padding: 20px;
+
+}
+
+.card_inblack {
+  background-color: $negro;
+  box-shadow: 10px -7px $amarillo;
+  border-radius: 15px;
+  color: whitesmoke;
+  padding: 20px;
+}
+
+
 
 
 .titulo1:hover {
     background: $amarillo;
+    
 }
 .titulo1 {
     background: $negro;
@@ -95,5 +115,10 @@ footer {
     background-color: $amarillo;
 }
 
+.secciones__footer a {
+    color: $blanco;
+}
+
 
 /********************About page****************/
+
